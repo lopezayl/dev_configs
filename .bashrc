@@ -131,3 +131,6 @@ alias gca='git commit --amend'
 # tmux aliases
 alias ta='tmux a -t'
 alias tl='tmux ls'
+
+# python aliases
+alias p='python3'

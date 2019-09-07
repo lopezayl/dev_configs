@@ -31,12 +31,15 @@ set undolevels=1000     " Lengthen undo history
 " Git commit messages
 au FileType gitcommit set tw=72
 
-"Meraki Ruby White Space Rules
+" White Space Rules
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 
 "Makefile exception
 autocmd FileType make setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
+
+"Python exception
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 "Automatic indentation
 set autoindent
