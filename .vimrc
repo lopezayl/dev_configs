@@ -82,7 +82,7 @@ highlight link SyntasticStyleWarningSign SignColumn
 
 nnoremap <Leader>R :exe "echo Hello, bound to R key!"
 
+set nofoldenable
 set foldmethod=indent
 set foldnestmax=10
-set nofoldenable
-set foldlevel=2
+set colorcolumn=80

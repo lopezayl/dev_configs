@@ -119,7 +119,7 @@ fi
 # git aliases
 alias ga='git add'
 alias gs='git status'
-alias co='git checkout'
+alias gco='git checkout'
 alias gd='git diff'
 alias gdn='git diff --name-only'
 alias gpull='git pull'
@@ -127,6 +127,7 @@ alias gpush='git push'
 alias gsl='git stash list'
 alias gsp='git stash pop'
 alias gca='git commit --amend'
+alias gcm='git commit -m'
 
 # tmux aliases
 alias ta='tmux a -t'
@@ -134,3 +135,8 @@ alias tl='tmux ls'
 
 # python aliases
 alias p='python3'
+
+# racket alias
+alias drr='plt-r5rs'
+
+export PATH="/usr/bin:$PATH"
