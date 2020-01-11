@@ -134,9 +134,14 @@ alias ta='tmux a -t'
 alias tl='tmux ls'
 
 # python aliases
-alias p='python3'
+alias p='python3.7'
+alias python3='python3.7'
 
 # racket alias
 alias drr='plt-r5rs'
 
 export PATH="/usr/bin:$PATH"
+bind 'set bell-style none'
+
+df -h
+fortune | cowsay | lolcat
