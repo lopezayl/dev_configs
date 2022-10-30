@@ -86,3 +86,5 @@ set nofoldenable
 set foldmethod=indent
 set foldnestmax=10
 set colorcolumn=80
+
+set visualbell
